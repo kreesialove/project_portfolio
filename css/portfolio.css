@@ -1,0 +1,140 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#navbar {
+    background: rgb(24, 24, 23);
+    overflow: auto;
+    color: #fff;
+    float: right;
+    height: 657px;
+    width: 100px;
+}
+.line2  {
+    float: right;
+    background-color: rgb(201, 201, 74);
+    width: 15px;
+    height: 658px;
+    padding-top: 0;
+}
+
+/* MENU */
+.menu{
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+/* MENU1 */
+.menu1{
+    margin-top: 150px;
+    padding-left: 30px;
+}
+
+.menu2{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.menu3{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar ul {
+    list-style: none;
+}
+#navbar ul li a:hover {
+    color:rgb(201, 201, 74);
+}
+#navbar ul li a {
+    color: white;
+}
+#content {
+    background: url("../image/image-black.jpg") no-repeat center center/ cover;
+    height: 658px;
+    overflow: visible;
+}
+
+
+
+img {
+    float: right;
+    height: 658px;
+    width: 350px;
+    margin-right: 0px;
+}
+footer {
+    background: black;
+    text-align: center;
+    overflow: auto;
+    display: block;
+    height: 50px;
+}
+
+#content {
+    color: #fff;
+}
+#about .content-1 i {
+    color: rgb(50, 50, 218);
+    font-size: 40px;
+}
+#about .content-2 i {
+    color: pink;
+    font-size: 40px;
+}
+#about .content-3 i {
+    color: skyblue;
+    font-size: 40px;
+}
+.name{
+    font-size: 1.5em;
+    color: rgb(24, 24, 23);
+    background-color: rgb(201, 201, 74);
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-top: 350px;
+    margin-left: 500px;
+    height: 2.5em;
+    width: 400px;
+    text-align: center;
+
+}
+#content .personal_icon a {
+    float: left;
+    padding-left: 15px;
+    color:white;
+}
+
+#content .personal_icon a:hover{
+    color: rgb(201, 201, 74);;
+}
+.about{
+    overflow: visible;
+}
+#sub-content {
+
+    margin-left: 30px;
+    padding: 0px;
+    height: 200px;
+
+}
+.content-text h2, .content-text p{
+    padding:10px;
+}
+
+#sub-content .wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, auto);
+} 

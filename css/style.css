@@ -1,0 +1,217 @@
+/*global setting*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*global styling*/
+html,
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    /* background-color: #141313; */
+    background: url("../image/image-black.jpg") no-repeat center center/      /*setting background picture in same place*/
+    cover;
+    height: 657px;
+}
+.overlay {
+    /* background: rgba(19, 20, 20, 0.4);
+    overflow: opaciy;
+    height: 657px;
+    z-index: 5; */
+}
+    
+
+
+/*Navigation*/
+#navbar{
+    background: rgb(24, 24, 23);
+    overflow: auto;
+    color: #fff;
+    float: right;
+    height: 657px;
+    width: 100px;
+}
+#navbar ul{
+    list-style: none;
+    /* float: right; */
+}
+#navbar ul li a:hover {
+    color:rgb(201, 201, 74);
+}
+#navbar ul li a {
+    color: white;
+}
+
+/* MENU */
+.menu{
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* MENU1 */
+.menu1{
+    margin-top: 150px;
+    padding-left: 14px;
+}
+
+.menu2{
+    margin-top: 100px;
+    padding-left: 14px;
+}
+.menu3{
+    margin-top: 100px;
+    padding-left: 14px;
+}
+#navbar i{
+    height: 50px;
+}
+
+/* index image */
+.landing{
+    float: right;
+    box-shadow: 5px;
+    padding-right: 0;
+}
+img{
+    height: 658px;
+    width: 550px;
+    margin-right: 0px;
+}
+
+/* yellow line */
+.line  {
+    background-color: rgb(201, 201, 74);
+    opacity: 0.7;
+    width: 700px;
+    height: 5px;
+    margin-left: 50px;
+    padding-top: 0;
+}
+.line2  {
+    float: right;
+    background-color: rgb(201, 201, 74);
+    width: 15px;
+    height: 658px;
+    padding-top: 0;
+}
+
+
+
+/* team text */
+.team{
+    color: white;
+    background-color:rgb(24, 24, 23);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#content .content-text h1 {
+    font-size: 90px;
+    line-height: 1.2em;
+    word-spacing: 5px;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+#content .content-text h2 {
+    color: white;
+    padding-top: 90PX;
+    padding-left: 50px;
+}
+.primary-text {
+    color: rgb(201, 201, 74);
+    font-size: 130px;
+}
+.primary-text1 {
+    color: rgb(201, 201, 74);
+    font-size: 40px;
+    padding-left: 150px;
+    
+}
+#content .content-text p { 
+    padding-bottom: 10px;
+}
+.text-lead {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+}
+
+
+
+/* TEAM CONTENT */
+.container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.container {
+    margin: auto;
+    max-width: 550px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.content-1 {
+    margin: auto;
+    max-width: 120px;
+    overflow: auto;
+    padding: auto;
+    float: left;
+}
+.content-2 {
+    margin: auto;
+    max-width: 120px;
+    overflow: auto;
+    padding: auto;
+    float: left;
+}
+.content-3 {
+    margin: auto;
+    max-width: 120px;
+    overflow: auto;
+    padding: auto;
+    /* float: left; */
+}
+.content-4 {
+    margin: auto;
+    max-width: 120px;
+    overflow: auto;
+    padding: auto;
+    /* float: left; */
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 20px
+}
+
+
+
+/* know more link */
+a.c-btn{
+    color: white;
+}
+a.c-btn:hover{
+    color:rgb(201, 201, 74);
+}
+
+
+
+
+
+
+
+
+
